@@ -1,0 +1,69 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+  a {
+    text-decoration: none;
+    color: #F3F324;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F3F324;
+    color: black;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  nav ul li a {
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #1A1A1A;
+  }
+  nav button {
+    padding: 10px 20px;
+    background: black;
+    color: #F3F324;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  nav button:hover {
+    background: #F3F324;
+    color: black;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 10%;
+    background: black;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .hero .yellow {
+    color: #F3F324;
+  }
+  
